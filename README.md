@@ -79,22 +79,22 @@ Unlike Policy Iteration, Value Iteration does not separately perform full policy
 The Bellman optimality equation is:
 
 $$
-V^{*}(s) =
-\max_a
+V^{\ast}(s) =
+\max_{a}
 \sum_{s'} P(s' \mid s,a)
 \left[
-R(s,a,s') + \gamma V^{*}(s')
+R(s,a,s') + \gamma V^{\ast}(s')
 \right]
 $$
 
 After the value function converges, the optimal policy is extracted using:
 
 $$
-\pi^{*}(s) =
+\pi^{\ast}(s) =
 \arg\max_a
 \sum_{s'} P(s' \mid s,a)
 \left[
-R(s,a,s') + \gamma V^{*}(s')
+R(s,a,s') + \gamma V^{\ast}(s')
 \right]
 $$
 
