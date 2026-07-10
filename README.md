@@ -16,7 +16,7 @@ The objective of this experiment is to:
 1. Represent the FrozenLake environment as a finite Markov Decision Process.
 2. Apply the Value Iteration algorithm.
 3. Compute the optimal state-value function $V^*(s)$.
-4. Extract the optimal policy $pi^*(s)$.
+4. Extract the optimal policy $\pi^*(s)$.
 5. Display the value function and policy in grid form.
 
 ---
